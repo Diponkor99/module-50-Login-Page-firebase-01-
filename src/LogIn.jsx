@@ -9,10 +9,10 @@ const LogIn = () => {
                   "Password :",Password)
     }
     return (
-        <div className='border w-11/12  h-screen flex items-center mx-auto'>
+        <div className=' w-11/12  h-screen flex items-center mx-auto'>
             
 
-            <section className='w-110 rounded-2xl mx-auto p-9 bg-lime-200'>
+            <section className='w-110 rounded-2xl mx-auto p-9 bg-lime-300 shadow shadow-2xl shadow-amber-500'>
                 <h1 className='font-bold text-2xl mb-5'>LogIn page :</h1>
                 <form onSubmit={handelOnSubmit}>
                     <h1 className='p-1'>Email:</h1>
